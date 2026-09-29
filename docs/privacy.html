@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>邻证 NoiseLog 隐私政策</title>
+  <style>
+    body { margin: 0; background: #f5f5f0; color: #1a1a1a; font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(820px, calc(100% - 40px)); margin: 48px auto 80px; }
+    h1 { font-size: 36px; margin-bottom: 4px; } h2 { margin-top: 30px; font-size: 21px; }
+    .meta, .en { color: #666; } a { color: #b23b30; } code { word-break: break-word; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>邻证 NoiseLog 隐私政策</h1>
+    <p class="meta">生效日期：2026 年 9 月 29 日</p>
+    <p>邻证是一款本地运行的噪音监测与事件辅助记录工具。本政策说明应用如何使用麦克风、摄像头、用户填写的地址文字及本地文件。</p>
+
+    <h2>1. 使用的数据</h2>
+    <p>仅在用户明确启用监听后，应用才会使用麦克风分析环境声音。用户启用视频取证时，应用会使用摄像头，并在内存中维持短时循环预录；关闭视频取证后，应用不会打开摄像头。只有达到用户设置的触发条件时，相关音频或视频片段才会写入磁盘。用户可选填水印地址，该文字只用于本地视频水印和报告。</p>
+
+    <h2>2. 本地处理与存储</h2>
+    <p>音频、视频、分贝数据、日志和报告均在用户电脑上处理并保存。应用不要求账号，不包含广告或第三方统计 SDK，不向开发者服务器上传证据文件，也不出售或共享用户数据。</p>
+
+    <h2>3. 权限</h2>
+    <p>麦克风权限用于实时噪音检测和事件音频；摄像头权限用于用户选择的视频辅助记录；文件访问用于保存和打开证据目录。用户可以在操作系统设置中撤销权限，也可以在应用内关闭视频取证。</p>
+
+    <h2>4. 保存期限与删除</h2>
+    <p>文件保存多久完全由用户决定。用户可在应用中打开取证目录，并使用系统文件管理器删除、移动或备份文件。卸载应用不一定会删除用户主动保存的证据文件。</p>
+
+    <h2>5. 计量与法律提示</h2>
+    <p>不同麦克风的灵敏度和频响不同，读数会受设备、位置和校准方式影响。邻证不是经法定计量检定的声级计，输出属于辅助记录，不构成法律意见，也不保证被法院、物业、警方或其他机构直接采信。用户应遵守所在地关于录音、录像、隐私和个人信息保护的法律，并在需要时履行告知或取得同意。</p>
+
+    <h2>6. 儿童</h2>
+    <p>本应用不面向儿童收集个人信息，也不提供账号或在线社交功能。</p>
+
+    <h2>7. 联系我们</h2>
+    <p>隐私问题可通过 <a href="https://github.com/boby2028/noise-watch-desktop/issues">GitHub Issues</a> 联系开发者。政策更新会发布在本页面并修改生效日期。</p>
+
+    <hr>
+    <h1 lang="en">NoiseLog Privacy Policy</h1>
+    <p class="meta" lang="en">Effective: September 29, 2026</p>
+    <div class="en" lang="en">
+      <p>NoiseLog is a local noise-monitoring and event-documentation tool. Microphone audio is analyzed only after the user starts monitoring. If video evidence is enabled, the camera is used and a short rolling pre-buffer is held in memory. When video evidence is disabled, the camera is not opened. Only user-configured trigger events are written to disk.</p>
+      <p>Audio, video, sound-level data, logs, reports, and optional address text are processed and stored on the user's computer. NoiseLog requires no account, contains no ads or third-party analytics SDKs, does not upload evidence to developer servers, and does not sell or share user data.</p>
+      <p>Users control retention and may delete, move, or back up files using the operating system. Permissions can be revoked in system settings, and video evidence can be disabled in the app.</p>
+      <p>Readings vary by microphone, placement, and calibration. NoiseLog is not a legally certified sound-level meter. Its outputs are supporting records, not legal advice or a guarantee of admissibility. Users are responsible for complying with applicable recording, privacy, and data-protection laws.</p>
+      <p>For privacy questions, contact the developer through <a href="https://github.com/boby2028/noise-watch-desktop/issues">GitHub Issues</a>.</p>
+    </div>
+  </main>
+</body>
+</html>
