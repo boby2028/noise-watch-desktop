@@ -1,13 +1,22 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://boby2028.github.io/noise-watch-desktop/privacy.html">
 <title>邻证 NoiseLog 手机版隐私政策</title><style>body{margin:0;background:#F5F5F0;color:#1A1A1A;font:16px/1.8 system-ui,sans-serif}main{max-width:800px;margin:32px auto;padding:28px 24px 40px;background:#fff;border:1.5px solid #1A1A1A;border-radius:28px;box-shadow:6px 6px 0 rgba(26,26,26,.1)}h1,h2{font-family:'Songti SC',Georgia,serif}h1{line-height:1.3}h2{font-size:21px;margin-top:30px}p{color:#6A6A6A}a{color:#1A1A1A;text-underline-offset:4px}small{color:#6A6A6A}hr{border:0;border-top:1px solid #D8D7D2;margin:32px 0}@media(max-width:860px){main{margin:16px;padding:24px 18px}}</style></head>
-<body><main><h1>邻证 NoiseLog 手机版隐私政策</h1><small>NoiseLog Mobile · 1.0 · 2026-10-15</small>
-<h2>声音与麦克风</h2><p>只有你点击“开始监听”并允许麦克风后，邻证才会在本机分析声音电平。测量期间会生成临时音频缓存；正常停止后删除。异常退出留下的已登记缓存会在下次启动时清理。手机首版不保留可回放录音，不使用摄像头、定位、通讯录或照片。</p>
-<h2>事件与本机存储</h2><p>应用保存事件时间、持续时长、峰值、平均电平、采样数量和校准设置，以便你回看声音变化。数据保存在应用的本机存储中；应用没有账号、广告、分析统计或云同步，不向开发者服务器上传声音或事件。系统备份和迁移由你的设备设置控制。</p>
-<h2>你可以控制的数据</h2><p>你可以随时停止监听，在系统设置中撤销麦克风权限，并在本页删除本机事件记录。删除记录不会清除你的阈值与校准设置。设备系统备份中的副本由系统备份设置管理。</p>
-<h2>监听范围与校准</h2><p>首版只在前台监听，进入后台或锁屏会停止；监听期间会保持屏幕开启。未校准显示 dBFS 麦克风电平，对照声级计校准后显示参考分贝。读数受设备、摆放和自动增益影响，用于个人记录与比较。</p>
-<h2>支持与政策更新</h2><p>使用下方支持入口可以向开发者反馈问题。只需描述设备型号、系统版本和复现步骤；请勿提交含私人声音或其他敏感内容的文件。支持网站由 GitHub 提供，访问该网站时适用它的隐私政策。本政策变更会同步更新日期与公开页面。</p>
-<p><a href="https://github.com/boby2028/noise-watch-desktop/issues">联系开发者 / Contact support</a></p>
-<hr><h2 lang="en">NoiseLog Mobile Privacy Policy</h2><p lang="en">Microphone access begins only when you start monitoring and grant permission. Sound is analyzed on the device. Temporary measurement audio is deleted after a normal stop; a registered cache file left by an interrupted session is cleaned up on the next launch. Version 1.0 stores event timestamps, duration, peak and average levels, sample count, and calibration locally. It retains no playable recordings. No camera, location, contacts, or photo access is used.</p>
-<p lang="en">No account, ads, analytics, or developer cloud upload is used. You can stop monitoring, revoke microphone permission in system settings, and delete all local event records in Privacy &amp; Settings. Device backups and their copies are controlled by your operating system settings. Monitoring stops in the background or when locked. Uncalibrated readings are dBFS; calibrated readings are reference levels, affected by hardware and placement.</p>
-<p lang="en">For support, use the contact link above. Submit device model, OS version, and reproduction steps without private audio. GitHub handles support-site visits under its own privacy policy.</p><p><a href="mobile-privacy.html">隐私政策 / Privacy</a> · <a href="mobile-support.html">支持 / Support</a></p></main></body></html>
+<body><main><h1>邻证 NoiseLog 手机版隐私政策</h1><small>NoiseLog Mobile · 1.0 · 2026-10-18</small>
+<p>完整政策以 <a href="privacy.html">隐私政策</a> 为准。本页说明现行 iPhone 版实际使用的权限。</p>
+<h2>声音</h2><p>点「开始监听」并允许麦克风后，才会用声音测量当前分贝。不拍视频时，测完就删掉临时录音，不留可以回放的录音。不读通讯录。</p>
+<h2>视频</h2><p>视频默认关着，关着时不会打开相机。打开后，会留下触发前默认约 3 秒，以及之后默认 8 秒，带声音。可以在日志里播放，也可以存进照片。只保存你点选的那一条，不翻其他照片，也不上传。退出或锁屏会停下来，并关掉相机。</p>
+<h2>水印地址</h2><p>水印地址可以是你点确定后的文字，也可以是识别位置时苹果返回的街道或小区名。只保存这行文字，不保存坐标。苹果没有街道时，用离线城市名。记下噪音时，会带上当时的字，出现在日志、文字记录和视频水印上。</p>
+<h2>位置</h2><p>iPhone 版仅在你点「识别位置」时使用一次定位：在本机对照地区数据并建议参考限值，并请 Apple 换成街道或小区名写入水印。应用不上传、不保存坐标。不点识别位置也可以手动选择地区。安卓版不使用定位。</p>
+<h2>记录存在哪里</h2><p>时间、持续多久、峰值、平均值、触发分贝、法定限值、分贝校正、地区名称、类别、水印地址和视频路径都存在这台手机上。没有账号，不上传。手机自己的备份由系统设置决定。</p>
+<h2>订阅</h2><p>免费每月最多新建 20 条。已经记下的一直能看。当前分贝、触发分贝、法定限值、视频和水印地址都不收费。Pro 是 Apple 自动续期订阅，增加导出分析、次数不限，以及导出 TXT。分析报告只在本机用已有记录生成。付款由 Apple 处理。安卓和网页预览不能购买。</p>
+<h2>你可以删掉</h2><p>可以随时停止。可以在系统设置里关掉麦克风、相机、照片或位置权限。可以关掉视频，改掉或清空水印地址，并在设置里删除本机记录和视频。删掉记录不会清掉触发分贝、法定限值、水印地址或分贝校正，也不会把本月次数还回来。</p>
+<h2>读数</h2><p>只在打开应用时测量。退出或锁屏会停止。读数按与桌面版相同的方式，由采样值加上 94 dB 和分贝校正得到，范围 0 到 140。读数会受麦克风与校准影响。邻证不是经计量认证的声级计，生成文件属于辅助记录，不保证被任何机构直接采信。打开视频时，画面上的数字来自录像，可能和只开麦克风时差几分贝。</p>
+<h2>反馈</h2><p>联系邻证 NoiseLog：<a href="mailto:noiselog@mail.grokbot.com">noiselog@mail.grokbot.com</a>。写上手机型号、系统版本和怎么复现即可。请不要附上私人录音。</p>
+<hr><h2 lang="en">NoiseLog Mobile Privacy Policy</h2>
+<p lang="en">The canonical policy is the <a href="privacy.html">privacy policy</a>. This page describes the permissions the current iPhone app actually uses.</p>
+<p lang="en">Microphone access begins only when you start monitoring and grant permission. With video evidence off, temporary measurement audio is deleted after a normal stop and no playable recording is kept. If you turn video evidence on, the camera opens only while monitoring, keeps a short rolling pre-roll (3 seconds by default), and saves a short on-device clip when the trigger level is crossed. You can play that clip or save the one you choose to Photos. The app does not read the rest of the photo library and does not upload audio, video, or events. Contacts are not used.</p>
+<p lang="en">On iPhone, location is used only when you tap Identify Location. The app compares that fix with region data on the device to suggest a reference limit, and asks Apple to turn it into a street or neighborhood name for the watermark. The app does not upload or store coordinates. You can choose a region by hand without using location. Android does not use location.</p>
+<p lang="en">The free plan stores up to 20 new events per calendar month. Saved events stay visible. The live reading, trigger level, reference limits, short video, and the optional address watermark are free. Pro is an auto-renewable Apple subscription that adds an on-device analysis report, unlimited new events, and TXT export. Apple handles payment. There is no account, no ads, and no analytics. You can revoke microphone, camera, photo, or location permission in system settings.</p>
+<p lang="en">For support, email <a href="mailto:noiselog@mail.grokbot.com">noiselog@mail.grokbot.com</a>. Include the device model, OS version, and reproduction steps. Do not attach private recordings.</p>
+<p><a href="privacy.html">隐私政策 / Privacy</a> · <a href="mobile-support.html">支持 / Support</a></p></main></body></html>

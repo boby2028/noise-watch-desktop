@@ -14,11 +14,12 @@
 <body>
   <main>
     <h1>邻证 NoiseLog 隐私政策</h1>
-    <p class="meta">生效日期：2026年10月15日</p>
-    <p>邻证是一款在设备本地运行的噪音监测与事件辅助记录工具，本政策同时适用于电脑版和 iPhone 版。本政策说明应用如何使用麦克风、摄像头、用户填写的地址文字、本地文件，以及 App 内订阅相关信息。</p>
+    <p class="meta">生效日期：2026年10月18日</p>
+    <p>邻证是一款在设备本地运行的噪音监测与事件辅助记录工具，本政策同时适用于电脑版和 iPhone 版。本政策说明应用如何使用麦克风、摄像头、可选的定位、用户填写的地址文字、本地文件，以及 App 内订阅相关信息。</p>
 
     <h2>1. 使用的数据</h2>
     <p>仅在用户明确启用监听后，应用才会使用麦克风分析环境声音。用户启用视频取证时，应用会使用摄像头，并在内存中维持短时循环预录；关闭视频取证后，应用不会打开摄像头。只有达到用户设置的触发条件（包括按时间段设置的分贝阈值）时，相关音频或视频片段才会写入设备存储（电脑版写入电脑磁盘，iPhone 版写入应用内存储）。用户可选填水印地址，该文字只用于本地视频水印和报告。</p>
+    <p>iPhone 版仅在你点「识别位置」时使用一次定位：在本机对照地区数据并建议参考限值，并请 Apple 换成街道或小区名写入水印。应用不上传、不保存坐标。不点识别位置也可以手动选择地区。</p>
 
     <h2>2. 本地处理与存储</h2>
     <p>无论使用电脑版还是 iPhone 版，录音、视频、分贝数据、日志和报告均只在用户自己的设备上处理并保存，不会上传给开发者。应用不要求账号，不包含广告或第三方统计 SDK，不向开发者服务器上传证据文件，也不出售或共享用户数据。</p>
@@ -29,7 +30,7 @@
     <p>邻证 Pro 会员通过 Apple App Store 的自动续期订阅提供。购买、扣款、续订和退款均由 Apple 处理，开发者不会获取你的支付卡信息、Apple ID 密码或其他付款信息。应用仅在设备上通过 Apple 提供的 StoreKit 接口确认订阅状态，以决定是否解锁 Pro 功能，不会将订阅信息上传到开发者服务器。Apple 处理购买信息的方式请参阅 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>。你可以在 iPhone「设置 > Apple ID > 订阅」中管理或取消订阅。</p>
 
     <h2>4. 权限</h2>
-    <p>麦克风权限用于实时噪音检测和事件音频；摄像头权限用于用户选择的视频辅助记录；文件或存储访问用于保存和打开证据文件。用户可以在系统设置中随时撤销权限，也可以在应用内关闭视频取证。</p>
+    <p>麦克风权限用于实时噪音检测。摄像头权限仅在打开视频取证时使用，关闭后不会打开相机。照片权限只把你点选保存的视频写入照片，不读取其他照片。定位仅在点「识别位置」时使用一次，用途见上一节：本机建议参考限值，并请 Apple 换成街道或小区名写入水印；不上传、不保存坐标。可以在系统设置中撤销这些权限，也可以在应用内关闭视频取证。</p>
 
     <h2>5. 保存期限与删除</h2>
     <p>文件保存多久完全由用户决定。用户可在应用中查看和删除记录。电脑版用户可在应用中打开取证目录，并使用系统文件管理器删除、移动或备份文件；卸载电脑版应用不一定会删除用户主动保存的证据文件。在 iPhone 上删除应用可能会同时删除应用内保存的数据，请提前导出需要保留的文件。订阅到期或取消后，已保存的记录不会被删除。</p>
@@ -45,9 +46,10 @@
 
     <hr>
     <h1 lang="en">NoiseLog Privacy Policy</h1>
-    <p class="meta" lang="en">Effective: October 15, 2026</p>
+    <p class="meta" lang="en">Effective: October 18, 2026</p>
     <div class="en" lang="en">
       <p>NoiseLog is a local noise-monitoring and event-documentation tool for iPhone and desktop. Microphone audio is analyzed only after the user starts monitoring. If video evidence is enabled, the camera is used and a short rolling pre-buffer is held in memory. When video evidence is disabled, the camera is not opened. Only events that meet the user's trigger settings (including time-period decibel thresholds) are written to device storage.</p>
+      <p>On iPhone, location is used only when you tap Identify Location. The app compares that fix with region data on the device to suggest a reference limit, and asks Apple to turn it into a street or neighborhood name for the watermark. The app does not upload or store coordinates. You can choose a region by hand without using location.</p>
       <p>Audio, video, sound-level data, logs, reports, and optional address text are processed and stored only on the user's own device and are not uploaded to the developer. On desktop, files are saved on the user's computer and can be managed with the system file manager; on iPhone, files are saved inside the app. When the user chooses to save or export, recordings, videos, and reports can be saved to the system Photos app or Files app; saving to Photos requires the user's photo library permission, which the user can revoke in system settings at any time. Once saved there, the files are managed by the system and the user—deleting the app does not remove them—and if the user has turned on iCloud Photos or iCloud Drive, the system may sync them according to the user's own Apple settings (the developer cannot access them). NoiseLog requires no account, contains no ads or third-party analytics SDKs, does not upload evidence to developer servers, and does not sell or share user data.</p>
       <p>NoiseLog Pro is offered as an auto-renewable subscription through the Apple App Store. Purchases, billing, renewals, and refunds are handled by Apple; the developer does not receive payment card details or Apple ID credentials. The app checks subscription status on the device through Apple's StoreKit only to unlock Pro features and does not send it to developer servers. See the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>. Subscriptions can be managed or cancelled in iPhone Settings &gt; Apple ID &gt; Subscriptions.</p>
       <p>Users control retention and may delete, move, or back up files. Saved records are kept when a subscription ends. Uninstalling the desktop app does not necessarily delete saved evidence files. Deleting the iPhone app may remove data stored inside it, so export anything you want to keep first. Permissions can be revoked in system settings, and video evidence can be disabled in the app.</p>
